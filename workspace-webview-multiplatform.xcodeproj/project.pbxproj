@@ -34,9 +34,22 @@
 		347C76042ECA79D00093204E /* HTML */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		347C76072ECA7E7D0093204E /* Exceptions for "workspace-webview-multiplatform" folder in "workspace-webview-multiplatform" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 347C75D12ECA79950093204E /* workspace-webview-multiplatform */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		347C75D42ECA79950093204E /* workspace-webview-multiplatform */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				347C76072ECA7E7D0093204E /* Exceptions for "workspace-webview-multiplatform" folder in "workspace-webview-multiplatform" target */,
+			);
 			path = "workspace-webview-multiplatform";
 			sourceTree = "<group>";
 		};
@@ -415,6 +428,7 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "workspace-webview-multiplatform/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Workspace;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -471,6 +485,7 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "workspace-webview-multiplatform/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Workspace;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
