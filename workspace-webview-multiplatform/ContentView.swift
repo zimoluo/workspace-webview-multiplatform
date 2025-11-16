@@ -1,21 +1,16 @@
 //
 //  ContentView.swift
-//  workspace-webview-multiplatform
+//  workspace-webview
 //
-//  Created by Zimo Luo on 11/16/25.
+//  Created by Zimo Luo on 9/20/25.
 //
 
 import SwiftUI
+import WebKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        WorkspaceWebView()
     }
 }
 

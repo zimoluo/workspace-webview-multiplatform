@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		347C76052ECA79D00093204E /* HTML in Resources */ = {isa = PBXBuildFile; fileRef = 347C76042ECA79D00093204E /* HTML */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		347C75E02ECA79960093204E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		347C75D22ECA79950093204E /* workspace-webview-multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "workspace-webview-multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		347C75DF2ECA79960093204E /* workspace-webview-multiplatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "workspace-webview-multiplatformTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		347C75E92ECA79960093204E /* workspace-webview-multiplatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "workspace-webview-multiplatformUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347C76042ECA79D00093204E /* HTML */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		347C75C92ECA79950093204E = {
 			isa = PBXGroup;
 			children = (
+				347C76042ECA79D00093204E /* HTML */,
 				347C75D42ECA79950093204E /* workspace-webview-multiplatform */,
 				347C75E22ECA79960093204E /* workspace-webview-multiplatformTests */,
 				347C75EC2ECA79960093204E /* workspace-webview-multiplatformUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347C76052ECA79D00093204E /* HTML in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
